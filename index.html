@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>React Tutorial</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <style>
+        ul{
+            width: 350px;
+            list-style-type: none;
+        }
+        ul li{
+            height: 23px;
+           background-color: #dedede;
+            margin: 5px;
+            padding: 5px;
+        }
+        .panel{
+            color: #00A000;
+            display: none;
+            width: 150px;
+            float: right;
+        }
+        li:hover .panel{
+            display: block ;
+            color: #A00000;width: 120px;
+        }
+        li.color{
+            background-color: #AA22FF;
+        }
+        button.add{
+            margin-left: 46px;
+            width: 340px;
+        }
+        button.add150{
+            margin-left: 10px;
+            width: 150px;
+        }
+        .text{
+            margin-left: 46px;
+            font-size: 25px;
+        }
+        .margin46{
+            margin-left: 46px ;
+        }
+
+    </style>
+
+</head>
+<body>
+<div id="content"></div>
+
+<script type="text/babel">
+    // To get started with this tutorial running your own code, simply remove
+    // the script tag loading scripts/example.js and start writing code here.
+</script>
+<script src="build/index.js"></script>
+</body>
+</html>
